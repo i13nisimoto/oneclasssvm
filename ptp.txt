@@ -1,0 +1,7 @@
+GoogleHomeスピーカーを自発的にしゃべらせる
+
+①Raspberry PiにGoogleHomeを操作するためのソフト(google-home-notifier.js)を導入
+②自宅のGoogleHomeにリクエストを送るための設定を実施
+③リスナーを実行して、RaspberryPi上にgoogle-home-notifierを常駐させる
+④定期的に天気予報を取得するスクリプトをcronで回す
+⑤気象情報を取得してgoogle-home-notifierにPOSTする
